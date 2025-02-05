@@ -1,33 +1,20 @@
 const preguntas = [
     { "pregunta": "Chat GPT no es un LLM", "respuesta": "f" },
-
     { "pregunta": "Talkie puede generar audio", "respuesta": "v" },
-
-    { "pregunta": "SeaArt.ai genera videos", "respuesta": "v" },{ "pregunta": "ChatGPT es un modelo de lenguaje grande (LLM).", "respuesta": "v" },
-
-    { "pregunta": "MidJourney es una herramienta para generar imágenes con IA.", "respuesta": "v" },
-    
+    { "pregunta": "SeaArt.ai genera videos", "respuesta": "v" },
+    { "pregunta": "LLM significa Learned Language Model", "respuesta": "f" },
+    { "pregunta": "MidJourney puede ejecutarse localmente", "respuesta": "f" },
     { "pregunta": "DALL-E puede generar videos a partir de texto.", "respuesta": "f" },
-    
-    { "pregunta": "Stable Diffusion es una herramienta de código abierto para generar imágenes.", "respuesta": "v" },
-    
-    { "pregunta": "GPT-4 puede entender y generar texto en múltiples idiomas.", "respuesta": "v" },
-    
-    { "pregunta": "La IA no puede ser utilizada para generar música.", "respuesta": "f" },
-    
-    { "pregunta": "Runway ML es una plataforma para crear contenido multimedia con IA.", "respuesta": "v" },
-    
-    { "pregunta": "La IA no puede generar código de programación.", "respuesta": "f" },
-    
-    { "pregunta": "DeepMind es una empresa especializada en IA fundada por Google.", "respuesta": "v" },
-    
-    { "pregunta": "La IA no puede ser utilizada para traducir idiomas en tiempo real.", "respuesta": "f" },
-    
-    { "pregunta": "TensorFlow es una herramienta desarrollada por Microsoft.", "respuesta": "f" },
-    
     { "pregunta": "PyTorch es una biblioteca de IA desarrollada por Facebook.", "respuesta": "v" },
-    
-    { "pregunta": "La IA no puede ser utilizada para diagnosticar enfermedades.", "respuesta": "f" },
+    { "pregunta": "TensorFlow es una herramienta desarrollada por Microsoft.", "respuesta": "f" },
+    { "pregunta": "DeepMind es una empresa especializada en IA fundada por Google.", "respuesta": "v" },
+    { "pregunta": "Stable Diffusion es una herramienta de código abierto para generar imágenes.", "respuesta": "v" },
+    { "pregunta": "Suno es una IA generadora de imagenes", "respuesta": "f" },    
+    { "pregunta": "LlamaCoder puede generar musica", "respuesta": "f" },   
+    { "pregunta": "Runway ML es una plataforma para crear contenido multimedia con IA.", "respuesta": "v" },
+    { "pregunta": "Character.AI no puede generar videos", "respuesta": "v" },    
+    { "pregunta": "Storynest.AI puede generar videos", "respuesta": "f" },
+    { "pregunta": "Copilot soporta programación en bloques", "respuesta": "f" },
     
     { "pregunta": "La IA puede generar texto que parece escrito por un humano.", "respuesta": "v" },
     
