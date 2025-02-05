@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta keywords="gestion, sistemas, quinto">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Mi app</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body class="bg-dark text-center text-white bg- bg-gradient fon">
+    <div class="jumbotron">
+        <main class="jumbotron">
+            <div class="cuerpo" id="f1">
+                <div><h1 class="fs-1 te fst-italic py-1" id="tiempo"></h1></div> <!-- el tiempo se crea desde el scrip-->
+                <div>
+                    <h1 class="fs-1 te fst-italic py-2">Trivia</h1>
+                </div>
+                <div class="row d-flex justify-content-around align-items-center py-2 mx-5">
+                    <p class="vid d-flex justify-content-around text-center align-items-center m-0 p-0" id="t1"></p>
+                    <h1 class="tex fst-italic py-2" id="puntero">Puntos:0</h1>
+                </div>
+                <div class="row-xxl-12 row-xl-12 row-lg-12 row-md-12 row-sm-12 fst-italic d-flex justify-content-around align-items-center flex py-3" id="f2">
+                    <button onclick="verificarRespuesta('v')" class="col-3 fs-3 fs-sm-5 btn bo verd text-light text-decoration-none" id="b1">VERDADERO</button>
+                    <button onclick="verificarRespuesta('f')" class="col-3 fs-3 fs-sm-5 btn bo fals text-light text-decoration-none" id="b2">FALSO</button>
+                </div>
+                <br>  
+            </div>
+        </main>
+        <footer class="bg-dark">
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

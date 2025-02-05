@@ -1,0 +1,184 @@
+.cabeza {
+    background-image: linear-gradient(black, rgb(26, 26, 52))
+}
+.no{
+    background-image: linear-gradient(rgb(255, 0, 0), rgb(0, 0, 0))
+}
+.si{
+    background-image: linear-gradient(rgb(0, 255, 0), rgb(0, 0, 0))
+}
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: end;
+}
+
+.cuerpo {
+    background-image: linear-gradient(rgb(26, 26, 52), rgb(0, 0, 0))
+}
+
+.logo {
+    height: 150px;
+    width: auto;
+    border-top-right-radius: 20%;
+    border-bottom-right-radius: 30%;
+    background-color: transparent;
+}
+
+.fon {
+    color: white;
+}
+
+.vid {
+    font-size: 30px;
+    height: 400px;
+    width: 800px;
+    border-radius: 10%;
+    box-shadow:
+        5px 5px 5px rgb(103, 48, 114),
+        -5px 5px 5px rgb(103, 48, 114),
+        5px -5px 5px rgb(103, 48, 114),
+        -5px -5px 5px rgb(103, 48, 114);
+}
+
+.vi {
+    border-radius: 40%;
+    box-shadow:
+        5px 5px 5px rgb(103, 48, 114),
+        -5px 5px 5px rgb(103, 48, 114),
+        5px -5px 5px rgb(103, 48, 114),
+        -5px -5px 5px rgb(103, 48, 114);
+}
+
+.tex {
+    color: rgb(171, 46, 196);
+    font-size: 50px;
+    text-shadow:
+        5px 5px 5px rgb(103, 48, 114),
+        -5px 5px 5px rgb(103, 48, 114),
+        5px -5px 5px rgb(103, 48, 114),
+        -5px -5px 5px rgb(103, 48, 114);
+}
+
+.font {
+    font-family: times 'Times New Roman', Times, serif, fantasy;
+    font-size: 110%;
+}
+
+.bo.fals{
+    background-image: linear-gradient(rgb(43, 18, 18), rgb(114, 48, 48), rgb(48, 38, 42), rgb(0, 0, 0), rgb(48, 38, 42), rgb(114, 48, 48), rgb(43, 18, 18));
+    border-left: 2px solid rgb(196, 46, 46);
+    border-right: 2px solid rgb(196, 46, 46);
+    border-radius: 0;
+    box-shadow:
+        7px 0px 5px rgb(114, 48, 48),
+        7px 0px 5px rgb(114, 48, 48),
+        -7px 0px 5px rgb(114, 48, 48),
+        -7px 0px 5px rgb(114, 48, 48);
+    transition-duration: 0.4s;
+}
+
+.bo.verd{
+    background-image: linear-gradient(rgb(23, 43, 18), rgb(48, 114, 48), rgb(38, 48, 43), rgb(0, 0, 0), rgb(38, 48, 43), rgb(48, 114, 48), rgb(23, 43, 18));
+    border-left: 2px solid rgb(81, 196, 46);
+    border-right: 2px solid rgb(81, 196, 46);
+    border-radius: 0;
+    box-shadow:
+        7px 0px 5px rgb(48, 114, 48),
+        7px 0px 5px rgb(48, 114, 48),
+        -7px 0px 5px rgb(48, 114, 48),
+        -7px 0px 5px rgb(48, 114, 48);
+    transition-duration: 0.4s;
+}
+
+.te {
+    font-size: 50px;
+    text-shadow:
+        5px 5px 5px rgb(103, 48, 114),
+        -5px 5px 5px rgb(103, 48, 114),
+        5px -5px 5px rgb(103, 48, 114),
+        -5px -5px 5px rgb(103, 48, 114);
+}
+
+.bo.fals:hover{
+    background-color: rgb(255, 0, 0);
+    border-left: 2px solid rgb(220, 24, 24);
+    border-right: 2px solid rgb(220, 24, 24);
+    border-radius: 0;
+    box-shadow:
+        inset 3px 3px 3px white,
+        inset -3px -3px 3px white,
+        inset 10px 10px 10px rgb(114, 48, 48),
+        inset -10px -10px 10px rgb(114, 48, 48),
+        inset 14px 14px 14px rgb(196, 46, 46),
+        inset -14px -14px 14px rgb(196, 46, 46),
+        inset 14px 14px 14px rgb(220, 24, 24),
+        inset -14px -14px 14px rgb(220, 24, 24),
+        inset 20px 20px 20px rgb(255, 0, 0),
+        inset -20px -20px 20px rgb(255, 0, 0);
+}
+.bo.verd:hover{
+    background-color: rgb(60, 255, 0);
+    border-left: 2px solid rgb(81, 196, 46);
+    border-right: 2px solid rgb(81, 196, 46);
+    border-radius: 0;
+    box-shadow:
+        inset 3px 3px 3px white,
+        inset -3px -3px 3px white,
+        inset 10px 10px 10px rgb(48, 114, 48),
+        inset -10px -10px 10px rgb(48, 114, 48),
+        inset 14px 14px 14px rgb(32, 123, 32),
+        inset -14px -14px 14px rgb(32, 123, 32),
+        inset 14px 14px 14px rgb(81, 196, 46),
+        inset -14px -14px 14px rgb(81, 196, 46),
+        inset 20px 20px 20px rgb(60, 255, 0),
+        inset -20px -20px 20px rgb(60, 255, 0);
+}
+.bot:hover {
+    background-color: rgb(171, 46, 196);
+    border-left: 2px solid rgb(171, 46, 196);
+    border-right: 2px solid rgb(171, 46, 196);
+    border-radius: 0;
+    box-shadow:
+        inset 3px 3px 3px white,
+        inset -3px -3px 3px white,
+        inset 10px 10px 10px rgb(103, 48, 114),
+        inset -10px -10px 10px rgb(103, 48, 114),
+        inset 14px 14px 14px rgb(196, 46, 181),
+        inset -14px -14px 14px rgb(196, 46, 181);
+}
+.inactive {
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+.active {
+    pointer-events: auto;
+    opacity: 1;
+}
+
+.bot {
+    background-image: linear-gradient(rgb(43, 18, 39), rgb(103, 48, 114), rgb(38, 38, 48), rgb(0, 0, 0), rgb(38, 38, 48), rgb(103, 48, 114), rgb(43, 18, 39));
+    border-left: 2px solid rgb(171, 46, 196);
+    border-right: 2px solid rgb(171, 46, 196);
+    border-radius: 0;
+    box-shadow:
+        7px 0px 5px rgb(103, 48, 114),
+        7px 0px 5px rgb(103, 48, 114),
+        -7px 0px 5px rgb(103, 48, 114),
+        -7px 0px 5px rgb(103, 48, 114);
+    transition-duration: 0.4s;
+}
+
+.vid2 {
+    font-size: 50px;
+    font-style: italic;
+    height: 595px;
+    width: 800px;
+    border-radius: 10%;
+    background-image: url("ia.png");
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}  
