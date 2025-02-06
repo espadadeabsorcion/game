@@ -15,6 +15,10 @@ const preguntas = [
     { "pregunta": "Character.AI no puede generar videos", "respuesta": "v" },    
     { "pregunta": "Storynest.AI puede generar videos", "respuesta": "f" },
     { "pregunta": "Copilot soporta programación en bloques", "respuesta": "f" },
+    { "pregunta": "Shapes.INC genera chatbots para Whatsapp", "respuesta": "f" },
+    { "pregunta": "Ollama no puede ser ejecutado de manera local", "respuesta": "f" },
+    { "pregunta": "Pop.AI no es una IA generativa de musica", "respuesta": "v" },   
+    { "pregunta": "La IA no puede ser utilizada para crear otras IA", "respuesta": "f" },
     
     { "pregunta": "La IA puede generar texto que parece escrito por un humano.", "respuesta": "v" },
     
